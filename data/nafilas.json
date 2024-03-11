@@ -1,0 +1,697 @@
+[
+  {
+    "night": 1,
+    "name": "1ère Nuit",
+    "rakkas": 10,
+    "sallama": 5,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 109,
+        "suraName": "Khoul ya ayouhal kafirouna",
+        "times": 2
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 2
+      }
+    ],
+    "rewards": "La chair de celui qui aurait fait cela, sera préservée de la flamme de l'Enfer."
+  },
+  {
+    "night": 2,
+    "name": "2ème Nuit",
+    "rakkas": 6,
+    "sallama": 3,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 108,
+        "suraName": "Inna a'taïlnaka",
+        "times": 5
+      }
+    ],
+    "rewards": "Les pêchés de celui qui aurait fait cela seront annulés, il aura les grâces d'un docteur qui aurait guéri mille malades à ses frais."
+  },
+  {
+    "night": 3,
+    "name": "3ème Nuit",
+    "rakkas": 6,
+    "sallama": 3,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 97,
+        "suraName": "Inna anzal nahou",
+        "times": 1
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela, recevra les récompenses de celui qui aurait libéré mille esclaves et donné à manger et à boire à mille personnes et qui les aurait habillés. Les tourments du tombeau ne l'effraieront point. La peur de la mort lui sera épargnée."
+  },
+  {
+    "night": 4,
+    "name": "4ème Nuit",
+    "rakkas": 4,
+    "sallama": 2,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 109,
+        "suraName": "Khoul ya ayouhal kafirouna",
+        "times": 3
+      }
+    ],
+    "rewards": "Les pêchés de celui qui aurait fait cela, seront effacés sur place ; il aura les récompenses accordées à mille adorateurs ou mille guerriers morts en combattant pour la cause d'ALLAH."
+  },
+  {
+    "night": 5,
+    "name": "5ème Nuit",
+    "rakkas": 8,
+    "sallama": 4,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 110,
+        "suraName": "Alam nasra",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 3
+      }
+    ],
+    "rewards": "Cette nuit là 2 anges inscriront sur une tablette les mérites de celui qui aurait fait cela et effaceront ses mauvaises actions."
+  },
+  {
+    "night": 6,
+    "name": "6ème Nuit",
+    "rakkas": 2,
+    "sallama": 1,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 10
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela recevra la récompense de celui qui aurait fait mille prières dans la mosquée d'Abraham et de Masjidil-l'harami. Des rayons lumineux comme ceux du soleil et de la lune lui serviront de guide pour le conduire au Paradis."
+  },
+  {
+    "night": 7,
+    "name": "7ème Nuit",
+    "rakkas": 6,
+    "sallama": 3,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 109,
+        "suraName": "Khoul ya ayouhal kafirouna",
+        "times": 7
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 7
+      }
+    ],
+    "rewards": "Il recevra s'il les accomplit les récompenses de celui qui aurait fait l'aumône de mille ou cinq mille écus environ. L'entrée au ciel lui sera accordée."
+  },
+  {
+    "night": 8,
+    "name": "8ème Nuit",
+    "rakkas": 2,
+    "sallama": 1,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 12
+      },
+      {
+        "suraNumber": 113,
+        "suraName": "Khoul aouzou birabbil nassi",
+        "times": 12
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela, aura les mérites de celui qui aurait adoré le DIEU unique pendant mille ans et qui aurait restauré la communauté musulmane et l'aurait vêtue."
+  },
+  {
+    "night": 9,
+    "name": "9ème Nuit",
+    "rakkas": 8,
+    "sallama": 4,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 100,
+        "suraName": "Tabat yadha",
+        "times": 3
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 3
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela, sera du nombre des reconnaissants. Il aura la récompense de celui qui aurait lu les 114 Chapitres sacrés descendus du Ciel. La porte des Huit paradis lui sera grandement ouverte."
+  },
+  {
+    "night": 10,
+    "name": "10ème Nuit",
+    "rakkas": 4,
+    "sallama": 2,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 2,
+        "suraName": "Ayatoul Koursiyou",
+        "times": 1
+      },
+      {
+        "suraNumber": 97,
+        "suraName": "Inna anzal nahou",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 12
+      }
+    ],
+    "rewards": "Tous les anciens et futurs pêchés de celui qui aurait fait cela, seront effacés sur place. Il sera protégé contre le feu ; grâce à ses mérites 70 personnes condamnées à l'enfer seront graciées."
+  },
+  {
+    "night": 11,
+    "name": "11ème Nuit",
+    "rakkas": 4,
+    "sallama": 2,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 109,
+        "suraName": "Khoul ya ayouhal kafirouna",
+        "times": 3
+      }
+    ],
+    "rewards": "Les pêchés de celui qui aurait fait cela, seront effacés sur place ; il aura les récompenses accordées à mille adorateurs ou mille guerriers morts en combattant pour la cause d'ALLAH."
+  },
+  {
+    "night": 12,
+    "name": "12ème Nuit",
+    "rakkas": 10,
+    "sallama": 5,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 6
+      }
+    ],
+    "rewards": "Celui qui le fait, aura mille étages construits en bijoux divers et remplis d'essences parfumées dans lesquels se trouvent des houris du jardin des délices. Il lui sera pardonnés ses pêchés comme à celui qui aurait lu les quatres livres sacrés : « Tawréta, Injila, Zaboura et le Fourkhan ». DIEU l'autorisera à racheter plusieurs de ceux qui sont condamnés au feu de la géhenne."
+  },
+  {
+    "night": 13,
+    "name": "13ème Nuit",
+    "rakkas": 10,
+    "sallama": 5,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 97,
+        "suraName": "Inna anzal nahou",
+        "times": 7
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 7
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela recevra la récompense de celui qui aurait fait mille prières successivement et jeûné pendant 20 ans ; il recevra son papier de la main droite. DIEU lui réservera au Paradis 7 Châteaux en métaux précieux de différentes sortes."
+  },
+  {
+    "night": 14,
+    "name": "14ème Nuit",
+    "rakkas": 8,
+    "sallama": 4,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 97,
+        "suraName": "Inna anzal nahou",
+        "times": 5
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 5
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela, sera préservé de la crainte de la mort, des deux anges « moukara » et « makiri » qui interrongerent les hommes sur les actes de leur vie, il n'aura aucune crainte le jour de la résurrection etc…."
+  },
+  {
+    "night": 15,
+    "name": "15ème Nuit",
+    "rakkas": 6,
+    "sallama": 3,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 35
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela verra DIEU accepter ses prières, favoriser ses jeûnes, ses aumônes et changer ses méfaits en bienfaits etc…."
+  },
+  {
+    "night": 16,
+    "name": "16ème Nuit",
+    "rakkas": 6,
+    "sallama": 3,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 10
+      }
+    ],
+    "rewards": "Les péchés de celui qui aurait fait cela seront tous pardonnés. DIEU le protégera contre les événements malheureux de la vie et du dernier jour. Il vivra au Paradis avec aisance."
+  },
+  {
+    "night": 17,
+    "name": "17ème Nuit",
+    "rakkas": 10,
+    "sallama": 5,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 109,
+        "suraName": "Khoul ya ayouhal kafirouna",
+        "times": 2
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 2
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela sera considéré comme un vrai croyant jusqu'au jugement dernier. S'il est maladif, DIEU le mettra à l'abri de ses angoisses. Il sera préservé des flammes de l'enfer."
+  },
+  {
+    "night": 18,
+    "name": "18ème Nuit",
+    "rakkas": 12,
+    "sallama": 6,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 109,
+        "suraName": "Khoul ya ayouhal kafirouna",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 1
+      }
+    ],
+    "rewards": "Il aura la récompense de celui qui posséderait toutes les richesses de la vie et qui les aurait dépensées sur la voie de DIEU, le Très Haut. Il sera ressuscité avec ceux qui seront à l'abri de la crainte et des angoisses."
+  },
+  {
+    "night": 19,
+    "name": "19ème Nuit",
+    "rakkas": 6,
+    "sallama": 3,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 7
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela verra DIEU accepter ses prières et éloigner Satan de lui. Il sera l'un des premiers à entrer au Paradis."
+  },
+  {
+    "night": 20,
+    "name": "20ème Nuit",
+    "rakkas": 10,
+    "sallama": 5,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 97,
+        "suraName": "Inna anzal nahou",
+        "times": 3
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 3
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela sera considéré comme celui qui aurait jeûné pendant 50 ans. DIEU lui pardonnera ses péchés. Il ne sentira pas l'obscurité du tombeau et entrera paisiblement au jardin des délices avec notre Prophète MOHAMED (P.S.L). Il y fera entrer ses amis."
+  },
+  {
+    "night": 21,
+    "name": "21ème Nuit",
+    "rakkas": 4,
+    "sallama": 2,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 10
+      },
+      {
+        "suraNumber": 113,
+        "suraName": "Khoul aouzou birabbil nassi",
+        "times": 12
+      }
+    ],
+    "rewards": "Les récompenses de celui qui aurait fait cela seront égales à celles d'une personne qui aurait dépensé ses biens sur le chemin de DIEU et qui aurait lu les 4 livres sacrés. Il sera exempt des péchés et sera pur comme un bébé qui vient de naître."
+  },
+  {
+    "night": 22,
+    "name": "22ème Nuit",
+    "rakkas": 2,
+    "sallama": 1,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 12
+      },
+      {
+        "suraNumber": 113,
+        "suraName": "Khoul aouzou birabbil nassi",
+        "times": 12
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela, DIEU bâtira 70 Cités au Paradis à son intention. Dans chacune se trouvera des étages en or et en argent. Chaque étage contiendra mille chambres remplies d'étoffes en soie qui brilleront comme le soleil."
+  },
+  {
+    "night": 23,
+    "name": "23ème Nuit",
+    "rakkas": 4,
+    "sallama": 2,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 97,
+        "suraName": "Inna anzal nahou",
+        "times": 7
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 7
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela sera pardonné de ses péchés. 2 anges écriront ses bienfaits et effaceront ses méfaits ; il marchera dans la lumière et passera au Paradis comme l'éclair."
+  },
+  {
+    "night": 24,
+    "name": "24ème Nuit",
+    "rakkas": 6,
+    "sallama": 3,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 97,
+        "suraName": "Inna anzal nahou",
+        "times": 5
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 5
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela, sera préservé de la crainte de la mort, des deux anges « moukara » et « makiri » qui interrongerent les hommes sur les actes de leur vie, il n'aura aucune crainte le jour de la résurrection etc…."
+  },
+  {
+    "night": 25,
+    "name": "25ème Nuit",
+    "rakkas": 8,
+    "sallama": 4,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 4
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela sera pardonné sur le champ. DIEU lui atribuera les mérites de celui qui aurait adoré le DIEU Unique pendant mille années consécutives."
+  },
+  {
+    "night": 26,
+    "name": "26ème Nuit",
+    "rakkas": 10,
+    "sallama": 5,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 5
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela, verra ses récompenses égales à celles de celui qui aurait prié toute sa vie et dont les prières sont innombrables comme les étoiles et comme les feuilles des arbres. Le jour de la résurrection, les anges l'entoureront. Gibril sera à sa droite, Izrafilou à sa gauche ; Mikailou et Azrahilou derrière pour le conduire au Paradis triomphalement."
+  },
+  {
+    "night": 27,
+    "name": "27ème Nuit",
+    "rakkas": 12,
+    "sallama": 6,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 97,
+        "suraName": "Inna anzal nahou",
+        "times": 10
+      }
+    ],
+    "rewards": "Les récompenses de celui qui aurait fait cela seront incalculables et comparables à l'infini nombre des rayons du soleil et de la lune. Il sera placé au rang des Apôtres de DIEU. Dans cette nuit appelée « Laylatoul khadr », on ne doit pas dormir jusqu'à matin. C'est une nuit sacrée remplie de bienfaits divins. Les anges descendront et étendront le Drapeau Divin de l'Est à l'Ouest en souhaitant la paix (salam) à toute la population de la terre. C'est une nuit glorieuse. Le Coran fut descendu cette nuit (voir le Coran Chap. XLVII)."
+  },
+  {
+    "night": 28,
+    "name": "28ème Nuit",
+    "rakkas": 4,
+    "sallama": 2,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 109,
+        "suraName": "Khoul ya ayouhal kafirouna",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 1
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela verra ses anciens et futurs pêchés pardonnés."
+  },
+  {
+    "night": 29,
+    "name": "29ème Nuit",
+    "rakkas": 6,
+    "sallama": 3,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 112,
+        "suraName": "Khoul hou allahou ahad",
+        "times": 10
+      }
+    ],
+    "rewards": "Pour celui qui aurait fait cela, 70000 édifices en diamant seront construits à son intention dans le Paradis. Telle sera se récompense."
+  },
+  {
+    "night": 30,
+    "name": "30ème Nuit",
+    "rakkas": 4,
+    "sallama": 2,
+    "recite": [
+      {
+        "suraNumber": 1,
+        "suraName": "Fatiha",
+        "times": 1
+      },
+      {
+        "suraNumber": 109,
+        "suraName": "Khoul ya ayouhal kafirouna",
+        "times": 25
+      }
+    ],
+    "rewards": "Celui qui aurait fait cela, sera à l'abri des tourments de l'enfer et séparé des impies. Il passera au Paradis comme l'éclair. Ses proches et ses amis auront leurs pêchés pardonnés en sa faveur."
+  }
+]

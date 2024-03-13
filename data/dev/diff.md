@@ -1,0 +1,7 @@
+- Alam nasraa: 110 -> 94
+- Tabatt yada: 100 -> 111
+- Sabi hisma: 38 -> 87
+- Sabi hisma: 38 -> 87
+- Al khârihatou: 89 -> 101
+- Watini: 94 -> 95
+- Watini: 94 -> 95

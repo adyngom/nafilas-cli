@@ -32,7 +32,7 @@ const displayNafilaSequence = (sequence, surasData) => {
   //p.note(wrappedSequenceText, chalk.yellowBright(`Nafila ${sequence.name}:`));
   //p.outro(wrappedSequenceText);
   p.text({ message: chalk.yellowBright(`Nafila ${sequence.name}:`) });
-  p.text({ message: wrappedSequenceText });
+  p.outro(wrappedSequenceText);
 };
 
 // Helper function to validate user input
@@ -86,7 +86,7 @@ const main = async () => {
       p.log.warn('Sorry, no recommended sequence found for the entered night.');
     }
 
-    p.outro(color.magenta(`Problems? ${color.underline(color.cyan('https://example.com/issues'))}`));
+    p.text({message: color.magenta(`Problems? ${color.underline(color.cyan('https://github.com/adyngom/nafilas-cli/issues'))}`)});
   } catch (error) {
     console.error('An error occurred:', error);
   }

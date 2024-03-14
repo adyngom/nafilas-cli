@@ -2,7 +2,8 @@
 
 Nafilas est un outil CLI Node.js conçu pour assister les musulmans pendant le mois sacré du Ramadan. Il fournit les séquences recommandées de prières (Nafilas) et de Sourates à réciter pour chaque nuit du Ramadan, ainsi que les récompenses associées.
 
-![npx-nafilas](https://github.com/adyngom/nafilas-cli/assets/290986/8e0533cc-4d0b-48dd-a60c-bc8f034cefac)
+![npx-nafilas](https://github.com/adyngom/nafilas-cli/assets/290986/0ca44c52-38c3-4c2e-a843-41f4d54f2163)
+
 
 
 ## Fonctionnalités

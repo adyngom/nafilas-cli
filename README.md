@@ -19,7 +19,7 @@ Pour utiliser l'outil Compagnon des Nafilas, vous devez avoir Node.js installé 
 Une fois Node.js installé, vous pouvez installer l'outil Compagnon des Nafilas globalement en utilisant la commande suivante :
 
 ```bash
-npm install -g nafilas
+npm i -g nafilas-cli
 ```
 
 
@@ -34,7 +34,7 @@ nafilas
 ou bien avec npx
 
 ```bash
-npx nafilas
+npx nafilas-cli
 ```
 
 L'outil vous saluera avec un message de bienvenue et vous invitera à entrer la nuit du Ramadan (1-29). Vous pouvez naviguer dans les options à l'aide des touches fléchées ou en saisissant le numéro correspondant.

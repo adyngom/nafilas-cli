@@ -23,15 +23,15 @@ const getSuraEnglishName = (suraNumber) => {
 };
 
 const displayNafilaSequence = (sequence, surasData) => {
-  const sequenceText = `${color.bold('Rakkas:')} ${sequence.rakkas} - ${color.bold('Sallama:')} ${sequence.sallama}\n\n${color.bold('Suras:')}\n${sequence.recite
+  const sequenceText = `${color.bold('Rakkas:')} ${sequence.rakkas} - ${color.bold('Sallama:')} ${sequence.sallama}\n\n${color.bold('Suras:')}\n\n${sequence.recite
     .map(({ suraNumber, times }) => `- ${color.green(getSuraEnglishName(suraNumber, surasData))} (${color.cyan(times)} fois)`)
-    .join('\n')}\n\n${chalk.white('Récompenses:')}\n${chalk.hex("#ffa500")(wrap(sequence.rewards, 80, { hard: true, trim: false }))}`;
+    .join('\n')}\n\n${chalk.white('Récompenses:')}\n\n${chalk.hex("#ffa500")(wrap(sequence.rewards, 80, { hard: true, trim: false }))}`;
 
   const wrappedSequenceText = wrap(sequenceText, 80, { hard: true, trim: false });
 
   //p.note(wrappedSequenceText, chalk.yellowBright(`Nafila ${sequence.name}:`));
   //p.outro(wrappedSequenceText);
-  p.text({ message: chalk.yellowBright(`Nafila ${sequence.name}:`) });
+  p.outro(chalk.yellowBright(`Nafila ${sequence.name}:`));
   p.outro(wrappedSequenceText);
 };
 
@@ -63,8 +63,8 @@ const main = async () => {
       {
         night: () =>
           p.text({
-            message: 'Nuit du Ramadan (1-30)?',
-            placeholder: lastNight.toString(),
+            message: color.magenta('Nuit du Ramadan (1-30)?'),
+            defaultValue: lastNight.toString(),
             validate: validateNightInput,
           }),
       },
@@ -86,7 +86,7 @@ const main = async () => {
       p.log.warn('Sorry, no recommended sequence found for the entered night.');
     }
 
-    p.text({message: color.magenta(`Problems? ${color.underline(color.cyan('https://github.com/adyngom/nafilas-cli/issues'))}`)});
+    p.outro(color.magenta(`Suggestions? ${color.underline(color.cyan('https://github.com/adyngom/nafilas-cli/issues'))}`));
   } catch (error) {
     console.error('An error occurred:', error);
   }

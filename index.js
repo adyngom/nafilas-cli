@@ -25,9 +25,9 @@ const getSuraEnglishName = (suraNumber) => {
 const displayNafilaSequence = (sequence, surasData) => {
   const sequenceText = `${color.bold('Rakkas:')} ${sequence.rakkas} - ${color.bold('Sallama:')} ${sequence.sallama}\n\n${color.bold('Suras:')}\n\n${sequence.recite
     .map(({ suraNumber, times }) => `- ${color.green(getSuraEnglishName(suraNumber, surasData))} (${color.cyan(times)} fois)`)
-    .join('\n')}\n\n${chalk.white('Récompenses:')}\n\n${chalk.hex("#ffa500")(wrap(sequence.rewards, 80, { hard: true, trim: false }))}`;
+    .join('\n')}\n\n${chalk.white('Récompenses:')}\n\n${chalk.hex("#ffa500")(wrap(sequence.rewards, 125, { hard: true, trim: false }))}`;
 
-  const wrappedSequenceText = wrap(sequenceText, 80, { hard: true, trim: false });
+  const wrappedSequenceText = wrap(sequenceText, 125, { hard: true, trim: false });
 
   //p.note(wrappedSequenceText, chalk.yellowBright(`Nafila ${sequence.name}:`));
   //p.outro(wrappedSequenceText);

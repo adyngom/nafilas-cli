@@ -59,24 +59,34 @@ const main = async () => {
     const config = new Conf({ projectName: 'nafilas' });
     const lastNight = config.get('lastNight', 1);
 
-    const night = await p.group(
-      {
-        night: () =>
-          p.text({
-            message: color.magenta('Nuit du Ramadan (1-30)?'),
-            defaultValue: lastNight.toString(),
-            validate: validateNightInput,
-          }),
-      },
-      {
-        onCancel: () => {
-          p.cancel('Operation cancelled.');
-          process.exit(0);
-        },
-      }
-    );
+    // get night number from command line argument and convert it to integer
+    const nightNumberCL = parseInt(process.argv[2], 10);
 
-    const nightNumber = parseInt(night.night, 10);
+    let nightNumber = null;
+
+    if (nightNumberCL && nightNumberCL > 0 && nightNumberCL < 31) {
+      nightNumber = nightNumberCL;
+    } else {
+      const night = await p.group(
+        {
+          night: () =>
+              p.text({
+                message: color.magenta('Nuit du Ramadan (1-30)?'),
+                defaultValue: lastNight.toString(),
+                validate: validateNightInput,
+              }),
+        },
+        {
+          onCancel: () => {
+            p.cancel('Operation cancelled.');
+            process.exit(0);
+          },
+        }
+      );
+
+      nightNumber = parseInt(night.night, 10);
+    }
+
     const sequence = nafilasData.find(({ night: n }) => n === nightNumber);
 
     if (sequence) {

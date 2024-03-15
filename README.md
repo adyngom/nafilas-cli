@@ -30,6 +30,9 @@ Pour démarrer l'outil Compagnon des Nafilas, exécutez la commande suivante dan
 
 ```bash
 nafilas
+
+# pour passer directement le numéro de nuit en argument
+nafilas 13
 ```
 
 ou bien avec npx

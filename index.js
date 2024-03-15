@@ -68,20 +68,20 @@ const main = async () => {
       nightNumber = nightNumberCL;
     } else {
       const night = await p.group(
-          {
-            night: () =>
-                p.text({
-                  message: color.magenta('Nuit du Ramadan (1-30)?'),
-                  defaultValue: lastNight.toString(),
-                  validate: validateNightInput,
-                }),
+        {
+          night: () =>
+              p.text({
+                message: color.magenta('Nuit du Ramadan (1-30)?'),
+                defaultValue: lastNight.toString(),
+                validate: validateNightInput,
+              }),
+        },
+        {
+          onCancel: () => {
+            p.cancel('Operation cancelled.');
+            process.exit(0);
           },
-          {
-            onCancel: () => {
-              p.cancel('Operation cancelled.');
-              process.exit(0);
-            },
-          }
+        }
       );
 
       nightNumber = parseInt(night.night, 10);

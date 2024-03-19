@@ -7,13 +7,16 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import wrap from 'wrap-ansi';
 
+// This gives us the absolute path of the current directory
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 // Load data asynchronously to avoid blocking the event loop
+// issue: no such file or directory, open 'C:\C:\Users\...\nafilas-cli\*.json'
+// fix: use path.join('data', 'suras.json')'
 let surasData, nafilasData;
 const loadData = async () => {
-  surasData = JSON.parse(await fs.readFile(path.join(__dirname, 'data', 'suras.json'), 'utf-8'));
-  nafilasData = JSON.parse(await fs.readFile(path.join(__dirname, 'data', 'nafilas.json'), 'utf-8'));
+  surasData = JSON.parse(await fs.readFile(path.join('data', 'suras.json'), 'utf-8'));
+  nafilasData = JSON.parse(await fs.readFile(path.join('data', 'nafilas.json'), 'utf-8'));
 };
 
 // Helper function to get the English name of a surah

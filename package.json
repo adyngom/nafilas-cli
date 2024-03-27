@@ -18,6 +18,7 @@
     "@clack/prompts": "^0.7.0",
     "chalk": "^5.3.0",
     "conf": "^12.0.0",
+    "express": "^4.18.3",
     "wrap-ansi": "^9.0.0"
   }
 }
